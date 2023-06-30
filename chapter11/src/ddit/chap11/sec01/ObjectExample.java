@@ -16,7 +16,7 @@ public class ObjectExample {
 }
 //Person 복제 - heap 메모리 다른 영역에 만들어짐, 내용 똑같음 => deep copy
 class Person implements Cloneable {
-	private String name;
+	public String name;
 	Person(){}
 	Person(String name){
 		this.name = name;
